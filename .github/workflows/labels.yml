@@ -1,5 +1,6 @@
 name: Put labels on autopilot with Instantish
 on:
+  create:
   push:
     branches:
       - master

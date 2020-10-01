@@ -2,6 +2,7 @@ name: "Put milestones on autopilot"
 on:
   schedule:
   - cron: "0 * * * *"
+  create:
   push:
     branches:
       - master
